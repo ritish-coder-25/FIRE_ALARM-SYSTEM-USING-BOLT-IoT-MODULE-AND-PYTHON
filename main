@@ -1,9 +1,9 @@
-API_KEY = "9f1f5c22-34c4-4c0c-a6f0-6b3834c3b3cc" #This is  the API key for the Bolt device used by me
-DEVICE_ID = "BOLT5436281" #This is the Bolt Device ID used by me
-SID = "AC8bbfb5f727aca0ce5a7110d7f80b675e" #Twilio SID signed up to send sms alerts
-AUTH_TOKEN = "e1fb97a0d62be42726a969df3b5878b6" #Twilio Authorised Token to verify the phone number
-FROM_NUM = "+19259400751" #The Twilio Number from where the sms alert will be generated
-TO_NUM = "+918240557567" #The personal number to receive the sms alert
+API_KEY = "" #This is  the API key for the Bolt device used by me
+DEVICE_ID = "BOLTXXXXXXXX" #This is the Bolt Device ID used by me
+SID = "" #Twilio SID signed up to send sms alerts
+AUTH_TOKEN = "" #Twilio Authorised Token to verify the phone number
+FROM_NUM = "" #The Twilio Number from where the sms alert will be generated
+TO_NUM = "" #The personal number to receive the sms alert
 
 from boltiot import Bolt , Sms
 import time , json , sys , statistics
