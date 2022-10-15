@@ -1,4 +1,4 @@
-# fire_alarm
+# FIRE_ALARM SYSTEM USING BOLT IoT MODULE AND PYTHON
 Code for the fire alarm system 
 
 The code works with a fire alarm circuit built with the help of Bolt WiFi Module, Buzzer and 2 LEDs.
